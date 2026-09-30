@@ -1,0 +1,274 @@
+<html>
+
+<head>
+    <style>
+        p {
+            font-style: italic;
+        }
+
+        button {
+            font-weight: bold;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        }
+
+        .center {
+            margin: auto;
+            width: 60%;
+            border: 3px solid #218fad;
+            padding: 10px;
+        }
+
+        ul#horizontal-menu {
+            text-align: center;
+            min-width: 696px;
+            list-style: none;
+            padding-top: 20px;
+        }
+
+        ul#horizontal-menu li {
+
+            margin: 5px;
+            padding: 4px;
+            min-width: 40em;
+            height: 2em;
+            background-color: blue;
+            color: yellow;
+            display: inline;
+        }
+
+        ul#horizontal-menu li a {
+            color: white;
+        }
+    </style>
+    <script>
+        function toggleTrend1() {
+            const trend = document.getElementById('trend1Descr');
+            if (trend.style['display'] === 'none') trend.style['display'] = 'block';
+            else trend.style['display'] = 'none';
+        }
+        function toggleTrend2() {
+            const trend = document.getElementById('trend2Descr');
+            if (trend.style['display'] === 'none') trend.style['display'] = 'block';
+            else trend.style['display'] = 'none';
+        }
+        function toggleTrend3() {
+            const trend = document.getElementById('trend3Descr');
+            if (trend.style['display'] === 'none') trend.style['display'] = 'block';
+            else trend.style['display'] = 'none';
+        }
+        function toggleTrend4() {
+            const trend = document.getElementById('trend4Descr');
+            if (trend.style['display'] === 'none') trend.style['display'] = 'block';
+            else trend.style['display'] = 'none';
+        }
+        function toggleTrend5() {
+            const trend = document.getElementById('trend5Descr');
+            if (trend.style['display'] === 'none') trend.style['display'] = 'block';
+            else trend.style['display'] = 'none';
+        }
+        function toggleTrend6() {
+            const trend = document.getElementById('trend6Descr');
+            if (trend.style['display'] === 'none') trend.style['display'] = 'block';
+            else trend.style['display'] = 'none';
+        }
+    </script>
+</head>
+</script>
+</head>
+
+<body background="images/lighter.webp" text="000000">
+    Comp 210 Unit 1 Portfolio Project
+    <title>
+        CONCEPTS
+    </title>
+    <div class="center">
+        <ul id="horizontal-menu" style="list-style: none;">
+            <li>
+                <a href="main.html">Main</a>
+            </li>
+            <li>
+                <a href="terms.html">Terms</a>
+            </li>
+            <li>
+                Concepts
+            </li>
+            <li>
+                <a href="trends.html">Trends</a>
+            </li>
+            <li>
+                <a href="citation.html">Citations</a>
+            </li>
+        </ul>
+    </div>
+    <h1 style="text-align:center;"> CONCEPTS </h1>
+    <ol>
+        <li>
+            <button onclick="toggleTrend1()">
+                Programming
+            </button>
+            <div id="trend1Descr" style="display:block">
+
+                <p>
+                    Programming, the process of presenting an electronic device, such as a computer, with a set of
+                    instructions, and for those instructions to be used to perform a certain task.
+                </p>
+                <p>
+                    Programs are developed by programmers (people who code programs) using a programming language like
+                    Java, JavaScript, C++, Python, etc.
+                </p>
+                <p>
+                    Each programming language has its own set of rules called the syntax which allows the electronic
+                    device to interpret written characters and execute commands. Without using the proper syntax, the
+                    intended command will not work and would usually generate an error.
+                </p>
+                <p>Citation:</p>
+                <ol>
+                    <li>
+                        <a href="https://www.computerhope.com/jargon/p/programming.htm" target="_blank">Code Academy:
+                            Programming</a>
+                    </li>
+                    <li>
+                        <a href="https://www.computerhope.com/jargon/program.htm" target="_blank">Code Academy:
+                            Programming
+                            Terms</a>
+                    </li>
+                    <li>
+                        <a href="https://www.codecademy.com/article/what-is-programming" target="_blank">Code Academy:
+                            What
+                            is Programming?</a>
+                    </li>
+                </ol>
+                <p></p>
+            </div>
+        </li>
+        <li>
+            <button onclick="toggleTrend2()">
+                Network
+            </button>
+            <div id="trend2Descr" style="display:block">
+
+                <p>
+                    Network, in technical terms, is the collection of servers, mainframes, computers, and other
+                    electronic devices, that are connected with each other, are able to communicate, share resources and
+                    exchange data with one another. Desktop computers, webcams, smartphones, routers, and the Internet
+                    are just some examples of network devices, all of which are connected with each other.
+                </p>
+                <p>Citation:</p>
+                <ol>
+                    <li>
+                        <a href="https://www.cisco.com/c/en/us/solutions/enterprise-networks/what-is-network-programming.html#:~:text=Network%20programming%20is%20the%20act,protocols%20to%20do%20the%20work"
+                            target="_blank">Cisco</a>
+                    </li>
+                    <li>
+                        <a href="https://www.computerhope.com/jargon/n/network.htm#advantage" target="_blank">Computer
+                            Hope: Network</a>
+
+                    </li>
+                </ol>
+                <p></p>
+
+            </div>
+        </li>
+        <li>
+            <button onclick="toggleTrend3()">
+                Computers
+            </button>
+            <div id="trend3Descr" style="display:block">
+
+                <p>
+                    Though the true definition of a computer is a device that is capable of calculations, current
+                    computers are capable of substantially greater operations.
+                </p>
+                <p>
+                    Nowadays, there are a multitude of computer types available, but a computer is primarily defined as
+                    an electronic device that is capable of accepting data (Input), store and process that data, and
+                    output the sought-after information.
+                </p>
+                <p>
+                    Here are some types of computers that exist in the world today:
+                </p>
+                <p>
+                    Embedded computer: tiny computers embedded into products to perform specific functions or tasks for
+                    that product (example: blind spot detection sensor in cars, toy noise maker).
+                </p>
+                <p>Mainframe computer: powerful computers used to host a large amount of data and programs available to
+                    a wide group of users</p>
+                <p>Mobile Device: mobile phones, small tablets, and other small personal devices that contain built-in
+                    computing or Internet capabilities (example: smartphones, media tablets)</p>
+                <p>Supercomputer: extremely powerful computers used for complex computations and processing</p>
+                <p>
+                <p></p>
+                <p>Citation:</p>
+                <ol>
+                    <li>
+                        <a href="https://www.computerhope.com/jargon/c/computer.htm" target="_blank">Computer Hope:
+                            Computer</a>
+                    </li>
+                    <li>
+                        <a href="https://online.vitalsource.com/#/books/9781305177048/" target="_blank">Morley, D.
+                            (2014). Understanding
+                            Computers in a Changing Society. [VitalSource Bookshelf].</a>
+                    </li>
+                </ol>
+                <p></p>
+        <li>
+            <button onclick="toggleTrend4()">
+                Information Security
+            </button>
+            <div id="trend4Descr" style="display:block">
+
+                <p>
+                    The protective shield put on data and computer hardware to stop unauthorized access and acquisition
+                    of data, normal or sensitive. A highly common security risk nowadays is the infection of your
+                    computer through a malicious software program, typically acquired through the installation of a
+                    program from a suspicious site. The aim of malware programs is to alter the manner of operations
+                    that a computer works off of. Implementation of firewalls, passwords, encryptions, and other
+                    computer security features can prevent unauthorized access of a device(s).
+                </p>
+                <p>
+                    Citation:
+                </p>
+                <ol>
+                    <li>
+                        <a href="https://www.computerhope.com/jargon/c/computer-security.htm" target="_blank">Copmuter
+                            Hope:
+                            Computer security</a>
+                    </li>
+                </ol>
+                <p></p>
+
+            </div>
+        </li>
+        <li>
+            <button onclick="toggleTrend5()">
+                IP Address
+            </button>
+            <div id="trend5Descr" style="display:block">
+
+                <p>
+                    Similar to a phone number, an IP address (Internet Protocol Address) is series of numbers that act
+                    as an identity for a device on a network. The unique numbers of IP addresses identify the sources
+                    and destinations of transmitted data (direct internet traffic to its intended destination).
+                </p>
+                <p>
+                    “There cannot be two computers on the internet using the exact IP address or exact same domain
+                    name.” (Textbook pg28)
+                </p>
+                Citation:
+                <ol>
+                    <li>
+                        <a href="https://www.avast.com/c-what-is-an-ip-address#:~:text=IP%20addresses%20may%20identify%20your,direct%20emails%20to%20your%20inbox"
+                            target="_blank">Avast Academy: WHat is an IP Address</a>
+                    </li>
+                    <li>
+                        <a href="https://www.computerhope.com/jargon/i/ip.htm#ip" target="_blank">Computer Hope: IP</a>
+
+                    </li>
+                </ol>
+                <p></p>
+
+            </div>
+        </li>
+    </ol>
+
+</html>

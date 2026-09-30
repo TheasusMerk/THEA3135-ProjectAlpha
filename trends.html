@@ -1,0 +1,188 @@
+<html>
+
+<head>
+    <style>
+        p {
+            font-style: italic;
+        }
+        button {
+            font-weight: bold;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        }
+        .center {
+            margin: auto;
+            width: 60%;
+            border: 3px solid #218fad;
+            padding: 10px;
+        }
+
+        ul#horizontal-menu {
+            text-align: center;
+            min-width: 696px;
+            list-style: none;
+            padding-top: 20px;
+        }
+
+        ul#horizontal-menu li {
+
+            margin: 5px;
+            padding: 4px;
+            min-width: 40em;
+            height: 2em;
+            background-color: blue;
+            color: yellow;
+            display: inline;
+        }
+
+        ul#horizontal-menu li a {
+            color: white;
+        }
+    </style>
+    <script>
+        function toggleTrend1() {
+            const trend = document.getElementById('trend1Descr');
+            if (trend.style['display'] === 'none') trend.style['display'] = 'block';
+            else trend.style['display'] = 'none';
+        }
+        function toggleTrend2() {
+            const trend = document.getElementById('trend2Descr');
+            if (trend.style['display'] === 'none') trend.style['display'] = 'block';
+            else trend.style['display'] = 'none';
+        }
+        function toggleTrend3() {
+            const trend = document.getElementById('trend3Descr');
+            if (trend.style['display'] === 'none') trend.style['display'] = 'block';
+            else trend.style['display'] = 'none';
+        }
+    </script>
+</head>
+
+<body background="images/lighter.webp" text="000000">
+    Comp 210 Unit 1 Portfolio Project
+    <title>
+        Trends
+    </title>
+    <div class="center">
+        <ul id="horizontal-menu" style="list-style: none;">
+            <li>
+                <a href="main.html">Main</a>
+            </li>
+            <li>
+                <a href="terms.html">Terms</a>
+            </li>
+            <li>
+                <a href="concepts.html">Concepts</a>
+            </li>
+            <li>
+                Trends
+            </li>
+            <li>
+                <a href="citation.html">Citations</a>
+            </li>
+        </ul>
+    </div>
+    <h1 style="text-align:center;"> TRENDS </h1>
+    <ol>
+        <li>
+            <button onclick="toggleTrend1()">
+                    Pervasive Computing
+            </button>
+            <div id="trend1Descr" style="display:block">
+                
+                    <p>
+                        Pervasive Computing, also called Ubiquitous computing,
+                        is a recent trend where computing technology is embedded
+                        into everyday items to grant those devices additional
+                        functionality. The embedded technology is designed in a
+                        manner that allows the device to transmit and receive data
+                        while being concealed/ invisible from the people around them.
+                    </p>
+                    <p>
+                        Areas where pervasive computing is applied:
+                    </p>
+                    <p>
+                        Retail, Healthcare, Tracking (Speed, Location, etc.), Car Information System, etc.
+                    </p>
+                    <p>
+                        <a href="https://www.geeksforgeeks.org/introduction-to-pervasive-computing/#:~:text=Pervasive%20Computing%20is%20also%20called,are%20unaware%20of%20their%20presence"
+                            target="_blank">More on Pervasive Computing technology, characteristics, application, and
+                            examples</a>
+                    </p>
+                    <p>
+                        <a href="https://www.techtarget.com/iotagenda/definition/pervasive-computing-ubiquitous-computing#:~:text=Examples,smart%20traffic%20lights%3B%20and%20Fitbit"
+                            target="_blank">More on Pervasive computing history, function, and advantages:</a>
+                    </p>
+
+                
+            </div>
+        </li>
+        <li>
+            <button onclick="toggleTrend2()">
+                E-menus 
+            </button>
+            <div id="trend2Descr" style="display:block">
+                
+                    <p>
+                        An electronic menu, E-menu, “is an interactive restaurant ordering system” (http://emenu.su/en/)
+                        that displays an image and description of the advertised product(s) on a digital device such as
+                        a tablet, phone, laptop, etc.
+                    </p>
+                    <p>
+                        With the revamp of restaurants and physical stores after Covid-19 restrictions, saving time,
+                        money, increasing operations and interest for businesses, grew exponentially. E-menus allow a
+                        more modernized way of tending to customers while continuing to fulfill their operations.
+                    </p>
+                    Advantages of E-menus
+                    <ol>
+                        <li>
+                            <a href="https://www.finedinemenu.com/?utm_term=&utm_campaign=DSA+Campaign&utm_source=adwords&utm_medium=ppc&hsa_acc=4267882658&hsa_cam=16064939929&hsa_grp=136672907510&hsa_ad=579142364520&hsa_src=s&hsa_tgt=dsa-1463112770137&hsa_kw=&hsa_mt=&hsa_net=adwords&hsa_ver=3&gclid=Cj0KCQjwxIOXBhCrARIsAL1QFCbi8oDCK3DNSZAJ9NYkKbTgCCpVBxteVCKRzc1p9j6uUVTc8jZ2b_EaAiY-EALw_wcB"
+                                target="_blank">FineDine Ordering System</a>
+                        </li>
+                        <li>
+                            <a href="2.	http://emenu.su/en/" target="_blank">E-menus</a>
+
+                        </li>
+                    </ol>
+                    <p></p>
+                
+            </div>
+        </li>
+        <li>
+            <button onclick="toggleTrend3()">
+                3. Mini PCs g
+            </button>
+            <div id="trend3Descr" style="display:block">
+                
+                    <p>
+                        “A Mini PC is a small-sized, inexpensive, low-power, legacy free desktop computer…”
+                        (https://www.alliedmarketresearch.com/mini-pcs-market-A13152)
+                    </p>
+                    <p>
+                        Minicomputers are the alternative option to regular sized PCs. Though not as powerful, these
+                        inexpensive computers are capable of basic computer tasks such as “web browsing, accessing
+                        web-based applications, document processing, and audio/video playback.”
+                        (https://www.alliedmarketresearch.com/mini-pcs-market-A13152).
+                    </p>
+                    <p>
+                        With Covid-19 impacting all industries, many companies opted for a work from home design. This
+                        change has made it mandatory for staff to own devices such as Desktop PCs, laptops, and/or
+                        tablets. Minicomputers allow for almost the same work capabilities as larger devices but at a
+                        significantly budgeted cost.
+                    </p>
+                    <p>
+                        <a href="https://www.alliedmarketresearch.com/mini-pcs-market-A13152" target="_blank">More on
+                            Mini PC Markets, Application, and Industries, Global Opportunity analysis, and Industry
+                            Predictions</a>
+                    </p>
+                    <p>
+                        <a href="https://primecomputer.co/2020/01/29/advantages-disadvantages-and-possible-applications-for-the-mini-computer/"
+                            target="_blank">Advantages and Disadvantages of Mini PCs</a>
+                    </p>
+
+                
+            </div>
+        </li>
+    </ol>
+</body>
+
+</html>
